@@ -41,30 +41,25 @@ AI_Project_v2/
 
 
 
-Create and activate virtual environment
+## Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate     # Linux / Mac
 venv\Scripts\activate        # Windows
 
-Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
 
-Configure AWS credentials
+## Configure AWS credentials
 aws configure
 
-Run the assistant:
+## Run the assistant:
 python3 main.py
 
 
-Roadmap
-
+## Roadmap
  Azure VM support
-
  GCP VM support
-
  Multi-cloud orchestration
-
  Streamlit GUI option
-
  Persistent config & history
